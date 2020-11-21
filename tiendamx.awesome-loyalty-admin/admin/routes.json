@@ -1,0 +1,10 @@
+{
+  "admin.app.awesome-loyalty": {
+    "component": "AwesomeLoyalty",
+    "path": "/admin/app/awesome-loyalty"
+  },
+  "admin.app.awesome-loyalty-detail": {
+    "component": "AwesomeLoyaltyDetail",
+    "path": "/admin/app/awesome-loyalty/:id"
+  }
+}

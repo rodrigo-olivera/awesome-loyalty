@@ -1,0 +1,13 @@
+{
+  "section": "customer",
+  "titleId": "awesome-loyalty.navigation.label-group",
+  "subSection": "awesome-loyalty",
+  "searchKeyWordsHelpers": "awesome-loyalty.navigation.search.kws",
+  "subSectionItems": [
+    {
+      "labelId": "awesome-loyalty.navigation.label-details",
+      "path": "/admin/awesome-loyalty",
+      "searchKeyWordsHelpers": "awesome-loyalty.navigation.details.search.kws"
+    }
+  ]
+}

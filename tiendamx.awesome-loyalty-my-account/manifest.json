@@ -1,0 +1,23 @@
+{
+  "name": "awesome-loyalty-my-account",
+  "vendor": "tiendamx",
+  "version": "0.0.1",
+  "title": "My Account Sample Plugin",
+  "description": "",
+  "mustUpdateAt": "2019-07-09",
+  "dependencies": {
+    "vtex.my-account": "1.x",
+    "vtex.styleguide": "9.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.my-account-commons": "1.x"
+  },
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "store": "0.x"
+  },
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
